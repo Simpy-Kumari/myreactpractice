@@ -15,5 +15,4 @@ function Garage() {
       </>
     );
   }
-
-  export default Garage;
+export default Garage;
