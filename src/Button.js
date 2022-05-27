@@ -4,12 +4,12 @@ import "./Button.css";
 const Button = () => {
 
     const onButtonClick = () => {
-        alert ("hello... ")
+        alert("hello... ")
     }
     return (
         <>
-        <button onClick = {onButtonClick}>Click Here To Alert</button>
-        <button className="button_color">Mouse hover To Change The Color</button>
+            <button onClick={onButtonClick}>Click Here To Alert</button>
+            <button className  ="button_color">Mouse hover To Change The Color</button>
         </>
     );
 
