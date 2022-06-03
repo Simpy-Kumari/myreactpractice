@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import UseStateExample from './UseStateExample';
-import UseStateExamp2 from './UseStateExamp2';
 import reportWebVitals from './reportWebVitals';
+import ProductCard from './Cards/ProductCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <ProductCard></ProductCard>
+    {/* <Header/> */}
+    {/* <AmazonHeader/>
+    <App />
     <UseStateExample />
-    <UseStateExamp2/>
+    <UseStateExamp2/> 
+     <UseEffectExample/>
+    <Data dataType = {dataType}/> */}
   </React.StrictMode>
 );
 

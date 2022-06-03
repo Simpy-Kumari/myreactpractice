@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-card--cointainer {
+    display: flex;
+    grid-template-columns: repeat(4, minmax(500px, 500px));
+    grid-gap: 50px;
+    justify-content: space-around;
+  }
+  
+  .card-container {
+    margin: 25px auto 0;
+    position: relative;
+    display: flex;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .card-container img {
+    max-width: 95%;
+    height: 250px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.27);
+    z-index: 1;
+  }
+  .item-price{
+      font-weight: bold;
+  }
+  
+  .item-name {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 60px;
+    margin: 10px 0;
+  }
+  
+  .card-btn {
+    float: right;
+    margin: 5px 0 0;
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .card-btn:hover {
+    background: blue;
+    color: black;
+  }
+
+  
+  
