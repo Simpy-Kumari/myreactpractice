@@ -1,0 +1,35 @@
+
+.main-container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 80px 1fr 70px ;
+    grid-template-columns:20% 1fr 15%;
+    grid-template-areas:
+     "header header header"
+     "nav article aside" 
+     "nav footer aside";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+header,article,nav,aside,footer {
+    padding: 1em;
+    background-color: khaki;
+    text-align: center;
+}
+.header{
+    grid-area: header;
+}
+.main-section{
+    grid-area: article;
+}
+.nav-bar{
+    grid-area: nav;
+}
+.side-bar{
+    grid-area: aside;
+}
+.footer{
+    grid-area: footer;
+}
+
